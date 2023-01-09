@@ -7,7 +7,7 @@ NPX cards are a cool way to genereate your business card. I got to know about th
 
 Here's a screenshot of how it looks:
 
-![Logo](./demo.png)
+![Logo](card-demo.png)
 
 ## Usage
 
