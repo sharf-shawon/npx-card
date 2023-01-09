@@ -1,0 +1,44 @@
+{
+  "name": "sharf.shawon",
+  "version": "1.0.0",
+  "description": "My personal business card",
+  "main": "/bin/card.js",
+  "bin": {
+    "bitandbang": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharf.shawon/npx-card.git"
+  },
+  "homepage": "https://shawon.xyz",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Sharfuddin Shawon <sharf@shawon.xyz> (https://shawon.xyz)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "nodemon": "^2.0.20",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/sharf.shawon/npx-card/issues"
+  },
+  "dependencies": {}
+}
